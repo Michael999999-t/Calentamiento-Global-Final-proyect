@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>El Calentamiento Global</title>
+<meta charset="UTF-8">
+<meta name="description" content="Calentamiento Global">
+<meta name="keywords" content="Calentamiento Global, Deforestación, Energía, Contaminación, Efecto Invernadero">
+<meta name="author" content="Michael López">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/5/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="proyect.css">
+</head>
+<body>
+
+
+<div class="w3-top">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="Pagina de Inicio.html" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="Causas del Calentamiento Global.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Causas</a>
+    <a href="Efectos del Calentamiento Global.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Efectos</a>
+    <a href="Acciones contra el Calentamiento Global.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Acciones</a>
+    
+         
+      
+      </div>
+    </div>
+</div>
+
+
+
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  
+    <img src="planeta6.jpg" alt="planeta tierra con la mitad en fuego">
+    
+      
+      
+  </div>
+
+  
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="band">
+    <section>
+      <div class="card-container">
+        <div class="card">
+    <h2 class="w3-wide">El calentamiento global</h2>
+    <p class="w3-opacity"><i>¿Qué es?</i></p>
+    <p class="w3-justify"><a href="https://www.manosunidas.org/observatorio/cambio-climatico/calentamiento-global"><u>El canlentamiento global</u></a></b> es la absorción de la energía solar por parte de la tierra. La tierra al calentarse desprende calor a la atmósfera en forma de rayos infrarrojos y parte de este calor vuelve a ser remitido a la superrficie terrestre y la consecuencia es el recalentamiento de la misma. Es un proceso natural del planeta tierra.</dd></h2>
+    </p>
+    </div>
+  </section>
+  <section>
+    <div class="card-container">
+      <div class="card">  
+    <h2 class="w3-wide">Si es un proceseo natural de nuestro planeta ¿Por qué se habla del cambio climático como un fenómeno dañino?</h2>
+    <p class="w3-justify">La <b>actividad humana, </b>por su parte, ha sido responsable de emitir una mayor cantidad de gases a la atmósfera,
+provocando un aumento mayor de la temperatura y como consecuencia, generando un calentamiento global.</p>
+</div>
+</section>
+<br> 
+ 
+<center><iframe width="600" height="400" src="https://www.youtube.com/embed/mOskc6x_t54?si=30tTtikvqwNV22r6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
+
+<br>
+<br>
+<section>
+  <div class="card-container">
+    <div class="card">  
+<form action="?">
+  <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+    <div class="w3-half">
+      <h3>Nombre</h3>
+      <input class="w3-input w3-border" type="text">
+    </div>
+    <div class="w3-half">
+      <h3>Email</h3>
+      <input class="w3-input w3-border" type="text">
+    </div>
+  </div>
+  <button class="w3-button w3-black w3-section w3-right" type="submit">Enviar</button>
+</form>
+</div>
+</section>
+
+
+
+
+<footer>
+  <center><h1 class="w3-wide">Contáctame</h1>
+  <a href="mailto:MLOP9237@interponce.edu"><h2>Correo electrónico</h2></a>
+  </center>
+</footer>
+
+<script>
+
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 4000);    
+}
+
+
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+
+
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
